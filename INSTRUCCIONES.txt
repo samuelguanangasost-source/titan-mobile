@@ -1,0 +1,15 @@
+TITAN MOBILE — INSTALACIÓN EN IPHONE
+
+Esta carpeta es una PWA lista para alojar. No basta con abrir index.html desde Archivos: necesita una dirección HTTPS.
+
+OPCIÓN GRATUITA: GitHub Pages
+1. Desde Safari, entra en github.com y crea una cuenta o inicia sesión.
+2. Crea un repositorio nuevo (por ejemplo, titan-mobile-demo). Ten en cuenta que GitHub Pages gratuito normalmente publica los archivos en una URL pública. NO subas claves API, contraseñas ni datos privados.
+3. Sube los cinco archivos web de esta carpeta a la raíz del repositorio (index.html, manifest.webmanifest, sw.js y los tres iconos).
+4. En Settings > Pages, selecciona Deploy from a branch, main y / (root). Guarda.
+5. Espera a que GitHub te muestre la URL https://usuario.github.io/titan-mobile-demo/.
+6. Abre esa URL con Safari en tu iPhone, pulsa Compartir > Añadir a pantalla de inicio > Añadir.
+
+Esta versión es una demostración de interfaz. No está conectada a OpenAI ni a tu PC. El avatar tiene animación visual simulada, no sincronización labial real. La voz y el dictado dependen del soporte del navegador. Los datos locales se guardan en el dispositivo; en hosting público evita introducir información sensible.
+
+Para una instalación estrictamente privada será mejor alojar la PWA en un servidor HTTPS con acceso protegido, en vez de GitHub Pages público.
